@@ -1,0 +1,97 @@
+html {
+  background-image: url("https://img3.wallspic.com/attachments/originals/9/2/0/3/4/143029-design-violet-geometry-graphic_design-line-3840x2160.jpg");
+  /* background-image: url("https://img.freepik.com/premium-photo/futuristic-graphic-illustration-white-transparent-circles-black-background_665346-4293.jpg"); */
+  min-height: 1000px;
+  font-family: 'helvetica neue';
+}
+
+h1 {
+  color: #fff;
+  padding: 10px;
+}
+
+.box {
+  max-width: 400px;
+  margin: 50px auto;
+  background: rgba(255, 255, 255, .4);
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+#heading {
+  background-color: rgba(255, 255, 255, .4);
+  text-align: center;
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #342958;
+  margin:5px
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input:checked+p {
+  text-decoration: line-through;
+  text-decoration-color: #342958;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #fff;
+}
+
+form.item{
+  text-align: center;
+  margin-left: 20px;
+}
+
+button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #342958;
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 6px;
+  border-width: 0;
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #342958;
+}
+
+::placeholder {
+  color: rgb(207, 204, 204);
+  opacity: 1;
+}
+
+footer {
+  color: white;
+  color: rgba(175, 173, 173, 0.5);
+  text-align: center;
+}
