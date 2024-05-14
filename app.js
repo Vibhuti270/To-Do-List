@@ -5,9 +5,7 @@ const _ = require("lodash");
 
 
 const app = express();
-// let items = ["Eat", "Walk", "Chat with friend", "Web Development"];
 
-// let workItems = [];
 app.set("view engine", "ejs");
 
 app.use(bodyParser.urlencoded({
